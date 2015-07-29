@@ -21,6 +21,12 @@ class PhotosController < ApplicationController
 
   end
 
+   def new_form
+
+    render("new_form.html.erb")
+
+  end
+
 
 
 end
